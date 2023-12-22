@@ -34,9 +34,9 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.types import KeyboardButton, ReplyKeyboardMarkup
 import requests
 import random
-APP_ID =15179868
-APP_HASH='5eed1d89e639551bd74d736037ebd4f9'
-#bot_token='6525713076:AAHnKy7bq69iS-hmJ2ZhdxX15MKXrujoP9A'
+APP_ID =10871792
+APP_HASH='6f3f84d0b392900e09b0aed186470890'
+#bot_token='6066127314:AAFky_xELp8U6MDqpwGqPQqPzYh-t5Sqk58'
 abbas=TelegramClient('bot', APP_ID, APP_HASH)
 abbas.start()
 a = requests.session()
@@ -49,8 +49,8 @@ bot_username5='@cn2bot'
 bot_username6='@ihyberbot'
 bot_username7='@YY8BoT'
 LOGS = logging.getLogger(__name__)
-DEVS = [6066647930]
-onerabbas_id = 6066647930
+DEVS = [1400467850]
+onerabbas_id = 1400467850
 @abbas.on(events.NewMessage(pattern='/start'))
 async def start(event):
     sender = await event.get_sender()
